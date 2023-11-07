@@ -1,16 +1,15 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
   <span>ComaScale | Glassgow Coma Scale Made Easy</span>
   <span class="spacer"></span>
   <button mat-icon-button aria-label="A icon-button for donations to the creator.">
     <mat-icon>favorite</mat-icon>
   </button>
 </mat-toolbar>
-<div class="background">
+<div>
   <mat-tab-group>
     <mat-tab label="Home"><app-home></app-home></mat-tab>
     <mat-tab label="About"><app-about></app-about></mat-tab>
     <mat-tab label="Learn"><app-learn></app-learn></mat-tab>
   </mat-tab-group>
 </div>
-
 <router-outlet></router-outlet>
