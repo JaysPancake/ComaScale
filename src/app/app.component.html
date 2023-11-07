@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
   <span>ComaScale | Glassgow Coma Scale Made Easy</span>
   <span class="spacer"></span>
-  <button matTooltip="Share this page!" mat-icon-button aria-label="A icon-button for donations to the creator.">
+  <button (click)="copyUrl()" matTooltip="Share this page!" mat-icon-button aria-label="A icon-button for donations to the creator.">
     <mat-icon>share</mat-icon>
   </button>
   <button (click)="goToLink('https://github.com/JaysPancake/ComaScale')" matTooltip="Contribute to the project!" mat-icon-button aria-label="A icon-button for donations to the creator.">
