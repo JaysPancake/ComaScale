@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     BrowserAnimationsModule,
     MatTabsModule,
     MatCardModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
